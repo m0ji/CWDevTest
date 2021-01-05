@@ -17,6 +17,12 @@
 		CDDB6C6325A43F4C00C27012 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C5C25A43F4C00C27012 /* OFL.txt */; };
 		CDDB6C6425A43F4C00C27012 /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C5D25A43F4C00C27012 /* MontserratAlternates-Regular.ttf */; };
 		CDDB6C6525A43F4C00C27012 /* MontserratAlternates-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C5E25A43F4C00C27012 /* MontserratAlternates-SemiBold.ttf */; };
+		CDDB6C7125A43FE900C27012 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6A25A43FE900C27012 /* CustomColor.swift */; };
+		CDDB6C7225A43FE900C27012 /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6C25A43FE900C27012 /* NSMutableAttributedString+Extensions.swift */; };
+		CDDB6C7325A43FE900C27012 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6D25A43FE900C27012 /* UIViewController+Extension.swift */; };
+		CDDB6C7425A43FE900C27012 /* CustomHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6E25A43FE900C27012 /* CustomHttpError.swift */; };
+		CDDB6C7525A43FE900C27012 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6F25A43FE900C27012 /* CustomFont.swift */; };
+		CDDB6C7625A43FE900C27012 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C7025A43FE900C27012 /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		CDDB6C5C25A43F4C00C27012 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		CDDB6C5D25A43F4C00C27012 /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
 		CDDB6C5E25A43F4C00C27012 /* MontserratAlternates-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.ttf"; sourceTree = "<group>"; };
+		CDDB6C6A25A43FE900C27012 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		CDDB6C6C25A43FE900C27012 /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		CDDB6C6D25A43FE900C27012 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		CDDB6C6E25A43FE900C27012 /* CustomHttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHttpError.swift; sourceTree = "<group>"; };
+		CDDB6C6F25A43FE900C27012 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		CDDB6C7025A43FE900C27012 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 		CDDB6C3D25A43E4C00C27012 /* CWDevTest */ = {
 			isa = PBXGroup;
 			children = (
+				CDDB6C6925A43FE900C27012 /* Helper */,
 				CDDB6C6725A43F6B00C27012 /* App */,
 				CDDB6C5525A43F4C00C27012 /* Assets */,
 				CDDB6C4C25A43E4E00C27012 /* Info.plist */,
@@ -109,6 +122,27 @@
 				CDDB6C4025A43E4C00C27012 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		CDDB6C6925A43FE900C27012 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C6A25A43FE900C27012 /* CustomColor.swift */,
+				CDDB6C6B25A43FE900C27012 /* Extensions */,
+				CDDB6C6E25A43FE900C27012 /* CustomHttpError.swift */,
+				CDDB6C6F25A43FE900C27012 /* CustomFont.swift */,
+				CDDB6C7025A43FE900C27012 /* DateHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CDDB6C6B25A43FE900C27012 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C6C25A43FE900C27012 /* NSMutableAttributedString+Extensions.swift */,
+				CDDB6C6D25A43FE900C27012 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDB6C7525A43FE900C27012 /* CustomFont.swift in Sources */,
+				CDDB6C7625A43FE900C27012 /* DateHelper.swift in Sources */,
 				CDDB6C3F25A43E4C00C27012 /* AppDelegate.swift in Sources */,
 				CDDB6C4125A43E4C00C27012 /* SceneDelegate.swift in Sources */,
+				CDDB6C7225A43FE900C27012 /* NSMutableAttributedString+Extensions.swift in Sources */,
+				CDDB6C7425A43FE900C27012 /* CustomHttpError.swift in Sources */,
+				CDDB6C7325A43FE900C27012 /* UIViewController+Extension.swift in Sources */,
+				CDDB6C7125A43FE900C27012 /* CustomColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
