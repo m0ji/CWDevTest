@@ -103,6 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				CDDB6C9C25A4416800C27012 /* Readme.md */,
+				CDDB6CAC25A4419800C27012 /* screenshot1.png */,
+				CDDB6CAF25A4419E00C27012 /* screenshot2.png */,
+				CDDB6CB225A441A300C27012 /* screenshot3.png */,
+				CDDB6CB525A441A700C27012 /* screenshot4.png */,
+				CDDB6CB825A441AC00C27012 /* screenshot5.png */,
+				CDDB6CBB25A441B100C27012 /* screenshot6.png */,
 				CDDB6C3D25A43E4C00C27012 /* CWDevTest */,
 				CDDB6C3C25A43E4C00C27012 /* Products */,
 			);
@@ -120,12 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				CDDB6C4C25A43E4E00C27012 /* Info.plist */,
-				CDDB6CAC25A4419800C27012 /* screenshot1.png */,
-				CDDB6CAF25A4419E00C27012 /* screenshot2.png */,
-				CDDB6CB225A441A300C27012 /* screenshot3.png */,
-				CDDB6CB525A441A700C27012 /* screenshot4.png */,
-				CDDB6CB825A441AC00C27012 /* screenshot5.png */,
-				CDDB6CBB25A441B100C27012 /* screenshot6.png */,
 				CDDB6C6725A43F6B00C27012 /* App */,
 				CDDB6C5525A43F4C00C27012 /* Assets */,
 				CDDB6C6925A43FE900C27012 /* Helper */,
