@@ -37,6 +37,7 @@
 		CDDB6C9725A440AF00C27012 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8925A440AF00C27012 /* CustomTextfield.swift */; };
 		CDDB6C9825A440AF00C27012 /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8A25A440AF00C27012 /* CustomTabItemView.swift */; };
 		CDDB6C9925A440AF00C27012 /* LineMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8B25A440AF00C27012 /* LineMarkerView.swift */; };
+		CDDB6CA325A4416800C27012 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C9C25A4416800C27012 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		CDDB6C8925A440AF00C27012 /* CustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
 		CDDB6C8A25A440AF00C27012 /* CustomTabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItemView.swift; sourceTree = "<group>"; };
 		CDDB6C8B25A440AF00C27012 /* LineMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineMarkerView.swift; sourceTree = "<group>"; };
+		CDDB6C9C25A4416800C27012 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				CDDB6C4C25A43E4E00C27012 /* Info.plist */,
+				CDDB6C9C25A4416800C27012 /* Readme.md */,
 				CDDB6C6725A43F6B00C27012 /* App */,
 				CDDB6C5525A43F4C00C27012 /* Assets */,
 				CDDB6C6925A43FE900C27012 /* Helper */,
@@ -300,6 +303,7 @@
 				CDDB6C6025A43F4C00C27012 /* Color.xcassets in Resources */,
 				CDDB6C5F25A43F4C00C27012 /* Assets.xcassets in Resources */,
 				CDDB6C6125A43F4C00C27012 /* MontserratAlternates-Bold.ttf in Resources */,
+				CDDB6CA325A4416800C27012 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
