@@ -23,6 +23,20 @@
 		CDDB6C7425A43FE900C27012 /* CustomHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6E25A43FE900C27012 /* CustomHttpError.swift */; };
 		CDDB6C7525A43FE900C27012 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C6F25A43FE900C27012 /* CustomFont.swift */; };
 		CDDB6C7625A43FE900C27012 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C7025A43FE900C27012 /* DateHelper.swift */; };
+		CDDB6C8C25A440AF00C27012 /* CoverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C7A25A440AF00C27012 /* CoverterService.swift */; };
+		CDDB6C8D25A440AF00C27012 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C7B25A440AF00C27012 /* NetworkManager.swift */; };
+		CDDB6C8E25A440AF00C27012 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C7C25A440AF00C27012 /* Config.swift */; };
+		CDDB6C8F25A440AF00C27012 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C7E25A440AF00C27012 /* Models.swift */; };
+		CDDB6C9025A440AF00C27012 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8125A440AF00C27012 /* HomeViewModel.swift */; };
+		CDDB6C9125A440AF00C27012 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8225A440AF00C27012 /* HomeViewController.swift */; };
+		CDDB6C9225A440AF00C27012 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8425A440AF00C27012 /* GraphView.swift */; };
+		CDDB6C9325A440AF00C27012 /* CountrySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8525A440AF00C27012 /* CountrySelectorView.swift */; };
+		CDDB6C9425A440AF00C27012 /* PickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8625A440AF00C27012 /* PickerSelectionView.swift */; };
+		CDDB6C9525A440AF00C27012 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8725A440AF00C27012 /* CustomTabView.swift */; };
+		CDDB6C9625A440AF00C27012 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8825A440AF00C27012 /* HomeView.swift */; };
+		CDDB6C9725A440AF00C27012 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8925A440AF00C27012 /* CustomTextfield.swift */; };
+		CDDB6C9825A440AF00C27012 /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8A25A440AF00C27012 /* CustomTabItemView.swift */; };
+		CDDB6C9925A440AF00C27012 /* LineMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C8B25A440AF00C27012 /* LineMarkerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +58,20 @@
 		CDDB6C6E25A43FE900C27012 /* CustomHttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHttpError.swift; sourceTree = "<group>"; };
 		CDDB6C6F25A43FE900C27012 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		CDDB6C7025A43FE900C27012 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		CDDB6C7A25A440AF00C27012 /* CoverterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverterService.swift; sourceTree = "<group>"; };
+		CDDB6C7B25A440AF00C27012 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CDDB6C7C25A440AF00C27012 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CDDB6C7E25A440AF00C27012 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CDDB6C8125A440AF00C27012 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CDDB6C8225A440AF00C27012 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CDDB6C8425A440AF00C27012 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		CDDB6C8525A440AF00C27012 /* CountrySelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrySelectorView.swift; sourceTree = "<group>"; };
+		CDDB6C8625A440AF00C27012 /* PickerSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerSelectionView.swift; sourceTree = "<group>"; };
+		CDDB6C8725A440AF00C27012 /* CustomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		CDDB6C8825A440AF00C27012 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDDB6C8925A440AF00C27012 /* CustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		CDDB6C8A25A440AF00C27012 /* CustomTabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItemView.swift; sourceTree = "<group>"; };
+		CDDB6C8B25A440AF00C27012 /* LineMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineMarkerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CDDB6C3D25A43E4C00C27012 /* CWDevTest */,
+				CDDB6C7825A440AF00C27012 /* Main */,
 				CDDB6C3C25A43E4C00C27012 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,10 +105,10 @@
 		CDDB6C3D25A43E4C00C27012 /* CWDevTest */ = {
 			isa = PBXGroup;
 			children = (
-				CDDB6C6925A43FE900C27012 /* Helper */,
+				CDDB6C4C25A43E4E00C27012 /* Info.plist */,
 				CDDB6C6725A43F6B00C27012 /* App */,
 				CDDB6C5525A43F4C00C27012 /* Assets */,
-				CDDB6C4C25A43E4E00C27012 /* Info.plist */,
+				CDDB6C6925A43FE900C27012 /* Helper */,
 			);
 			path = CWDevTest;
 			sourceTree = "<group>";
@@ -143,6 +172,67 @@
 				CDDB6C6D25A43FE900C27012 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDDB6C7825A440AF00C27012 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C7925A440AF00C27012 /* Networker */,
+				CDDB6C7D25A440AF00C27012 /* Model */,
+				CDDB6C7F25A440AF00C27012 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CDDB6C7925A440AF00C27012 /* Networker */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C7A25A440AF00C27012 /* CoverterService.swift */,
+				CDDB6C7B25A440AF00C27012 /* NetworkManager.swift */,
+				CDDB6C7C25A440AF00C27012 /* Config.swift */,
+			);
+			path = Networker;
+			sourceTree = "<group>";
+		};
+		CDDB6C7D25A440AF00C27012 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C7E25A440AF00C27012 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDDB6C7F25A440AF00C27012 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C8025A440AF00C27012 /* ViewModel */,
+				CDDB6C8225A440AF00C27012 /* HomeViewController.swift */,
+				CDDB6C8325A440AF00C27012 /* Views */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CDDB6C8025A440AF00C27012 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C8125A440AF00C27012 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDDB6C8325A440AF00C27012 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C8425A440AF00C27012 /* GraphView.swift */,
+				CDDB6C8525A440AF00C27012 /* CountrySelectorView.swift */,
+				CDDB6C8625A440AF00C27012 /* PickerSelectionView.swift */,
+				CDDB6C8725A440AF00C27012 /* CustomTabView.swift */,
+				CDDB6C8825A440AF00C27012 /* HomeView.swift */,
+				CDDB6C8925A440AF00C27012 /* CustomTextfield.swift */,
+				CDDB6C8A25A440AF00C27012 /* CustomTabItemView.swift */,
+				CDDB6C8B25A440AF00C27012 /* LineMarkerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,14 +310,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDB6C9725A440AF00C27012 /* CustomTextfield.swift in Sources */,
 				CDDB6C7525A43FE900C27012 /* CustomFont.swift in Sources */,
 				CDDB6C7625A43FE900C27012 /* DateHelper.swift in Sources */,
+				CDDB6C9425A440AF00C27012 /* PickerSelectionView.swift in Sources */,
+				CDDB6C9925A440AF00C27012 /* LineMarkerView.swift in Sources */,
+				CDDB6C8D25A440AF00C27012 /* NetworkManager.swift in Sources */,
+				CDDB6C8F25A440AF00C27012 /* Models.swift in Sources */,
+				CDDB6C9325A440AF00C27012 /* CountrySelectorView.swift in Sources */,
 				CDDB6C3F25A43E4C00C27012 /* AppDelegate.swift in Sources */,
+				CDDB6C9225A440AF00C27012 /* GraphView.swift in Sources */,
+				CDDB6C9125A440AF00C27012 /* HomeViewController.swift in Sources */,
+				CDDB6C8E25A440AF00C27012 /* Config.swift in Sources */,
+				CDDB6C9825A440AF00C27012 /* CustomTabItemView.swift in Sources */,
 				CDDB6C4125A43E4C00C27012 /* SceneDelegate.swift in Sources */,
 				CDDB6C7225A43FE900C27012 /* NSMutableAttributedString+Extensions.swift in Sources */,
+				CDDB6C9025A440AF00C27012 /* HomeViewModel.swift in Sources */,
+				CDDB6C8C25A440AF00C27012 /* CoverterService.swift in Sources */,
 				CDDB6C7425A43FE900C27012 /* CustomHttpError.swift in Sources */,
+				CDDB6C9525A440AF00C27012 /* CustomTabView.swift in Sources */,
 				CDDB6C7325A43FE900C27012 /* UIViewController+Extension.swift in Sources */,
 				CDDB6C7125A43FE900C27012 /* CustomColor.swift in Sources */,
+				CDDB6C9625A440AF00C27012 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
