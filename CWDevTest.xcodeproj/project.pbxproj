@@ -103,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				CDDB6C3D25A43E4C00C27012 /* CWDevTest */,
-				CDDB6C7825A440AF00C27012 /* Main */,
 				CDDB6C3C25A43E4C00C27012 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,6 +129,7 @@
 				CDDB6C6725A43F6B00C27012 /* App */,
 				CDDB6C5525A43F4C00C27012 /* Assets */,
 				CDDB6C6925A43FE900C27012 /* Helper */,
+				CDDB6C7825A440AF00C27012 /* Main */,
 			);
 			path = CWDevTest;
 			sourceTree = "<group>";
