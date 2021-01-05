@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CDDB6C3F25A43E4C00C27012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C3E25A43E4C00C27012 /* AppDelegate.swift */; };
 		CDDB6C4125A43E4C00C27012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB6C4025A43E4C00C27012 /* SceneDelegate.swift */; };
-		CDDB6C4825A43E4E00C27012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C4725A43E4E00C27012 /* Assets.xcassets */; };
 		CDDB6C4B25A43E4E00C27012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C4925A43E4E00C27012 /* LaunchScreen.storyboard */; };
 		CDDB6C5F25A43F4C00C27012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C5625A43F4C00C27012 /* Assets.xcassets */; };
 		CDDB6C6025A43F4C00C27012 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB6C5725A43F4C00C27012 /* Color.xcassets */; };
@@ -24,7 +23,6 @@
 		CDDB6C3B25A43E4C00C27012 /* CWDevTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWDevTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDB6C3E25A43E4C00C27012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDDB6C4025A43E4C00C27012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDDB6C4725A43E4E00C27012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDB6C4A25A43E4E00C27012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDDB6C4C25A43E4E00C27012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDB6C5625A43F4C00C27012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,11 +64,8 @@
 		CDDB6C3D25A43E4C00C27012 /* CWDevTest */ = {
 			isa = PBXGroup;
 			children = (
+				CDDB6C6725A43F6B00C27012 /* App */,
 				CDDB6C5525A43F4C00C27012 /* Assets */,
-				CDDB6C3E25A43E4C00C27012 /* AppDelegate.swift */,
-				CDDB6C4025A43E4C00C27012 /* SceneDelegate.swift */,
-				CDDB6C4725A43E4E00C27012 /* Assets.xcassets */,
-				CDDB6C4925A43E4E00C27012 /* LaunchScreen.storyboard */,
 				CDDB6C4C25A43E4E00C27012 /* Info.plist */,
 			);
 			path = CWDevTest;
@@ -104,6 +99,16 @@
 				CDDB6C5E25A43F4C00C27012 /* MontserratAlternates-SemiBold.ttf */,
 			);
 			path = Montserrat_Alternates;
+			sourceTree = "<group>";
+		};
+		CDDB6C6725A43F6B00C27012 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB6C4925A43E4E00C27012 /* LaunchScreen.storyboard */,
+				CDDB6C3E25A43E4C00C27012 /* AppDelegate.swift */,
+				CDDB6C4025A43E4C00C27012 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +175,6 @@
 				CDDB6C6225A43F4C00C27012 /* MontserratAlternates-Medium.ttf in Resources */,
 				CDDB6C6025A43F4C00C27012 /* Color.xcassets in Resources */,
 				CDDB6C5F25A43F4C00C27012 /* Assets.xcassets in Resources */,
-				CDDB6C4825A43E4E00C27012 /* Assets.xcassets in Resources */,
 				CDDB6C6125A43F4C00C27012 /* MontserratAlternates-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
