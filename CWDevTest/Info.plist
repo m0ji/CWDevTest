@@ -65,5 +65,12 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MontserratAlternates-Regular.ttf</string>
+		<string>MontserratAlternates-SemiBold.ttf</string>
+		<string>MontserratAlternates-Bold.ttf</string>
+		<string>MontserratAlternates-Medium.ttf</string>
+	</array>
 </dict>
 </plist>
